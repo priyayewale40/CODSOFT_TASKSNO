@@ -1,21 +1,15 @@
-Task 4 - Sales Prediction Using Python
+# Task 4 — Sales Prediction Using Python
 
-Objective
+## Objective
+Predict product sales from advertising expenditure using Linear Regression.
 
-To predict product sales based on advertising expenditure.
+## Dataset
+Download the Advertising dataset from https://www.kaggle.com/datasets/ashydv/advertising-dataset and save the CSV in this folder as `Advertising.csv`. The file should include `TV`, `Radio`, `Newspaper`, and `Sales` columns. A leading index column is fine; it will be ignored.
 
-Tools Used
+## Run
+From the repository root:
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Machine Learning
-
-Method
-
-Linear Regression is used to predict sales based on TV, Radio, and Newspaper advertising expenditure.
-
-Result
-
-The program predicts sales and evaluates the model using MAE, RMSE, and R² score.
+```bash
+pip install -r requirements.txt
+python Task4_Sales/sales_prediction.py
+```
