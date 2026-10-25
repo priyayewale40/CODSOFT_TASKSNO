@@ -1,20 +1,15 @@
-Task 3 - Iris Flower Classification
+# Task 3 — Iris Flower Classification
 
-Objective
+## Objective
+Classify Iris flowers into Setosa, Versicolor, or Virginica using sepal and petal measurements.
 
-To classify Iris flowers into three species: Setosa, Versicolor, and Virginica.
+## Dataset
+Included in scikit-learn; no separate download is required.
 
-Tools Used
+## Run
+From the repository root:
 
-- Python
-- Pandas
-- Scikit-learn
-- Machine Learning
-
-Method
-
-The model uses sepal and petal measurements to predict the flower species.
-
-Result
-
-The program predicts the species of an Iris flower and displays model evaluation results.
+```bash
+pip install -r requirements.txt
+python Task3_Iris/iris_classification.py
+```
